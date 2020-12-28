@@ -32,6 +32,7 @@ def find_valid_calls(planeteer_calls)
       return element
     end
   end
+  return nil 
 end
 
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
